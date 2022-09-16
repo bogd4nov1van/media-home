@@ -1,12 +1,12 @@
 {
-    "/config/watch/movies": {
+    "/downloads/torrent/movies": {
         "add_torrent_params": {
             "category": "",
             "download_limit": -1,
             "download_path": "",
             "operating_mode": "AutoManaged",
             "ratio_limit": -2,
-            "save_path": "/downloads/movies/complete",
+            "save_path": "/downloads/movies",
             "seeding_time_limit": -2,
             "skip_checking": false,
             "tags": [
@@ -16,7 +16,7 @@
         },
         "recursive": false
     },
-    "/config/watch/serials": {
+    "/downloads/torrent/serials": {
         "add_torrent_params": {
             "category": "",
             "download_limit": -1,
@@ -33,14 +33,31 @@
         },
         "recursive": false
     },
-    "/config/watch/music": {
+    "/downloads/torrent/music": {
         "add_torrent_params": {
             "category": "",
             "download_limit": -1,
             "download_path": "",
             "operating_mode": "AutoManaged",
             "ratio_limit": -2,
-            "save_path": "/downloads/serials",
+            "save_path": "/downloads/music",
+            "seeding_time_limit": -2,
+            "skip_checking": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false
+        },
+        "recursive": false
+    },
+    "/downloads/torrent/samples": {
+        "add_torrent_params": {
+            "category": "",
+            "download_limit": -1,
+            "download_path": "",
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/downloads/samples",
             "seeding_time_limit": -2,
             "skip_checking": false,
             "tags": [

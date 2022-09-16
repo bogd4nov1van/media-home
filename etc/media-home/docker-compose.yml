@@ -23,7 +23,7 @@ services:
       - TZ=Europe/Moscow
       - WEBUI_PORT=8080
     volumes:
-      - /usr/media/torrent:/config
+      - /etc/media-home:/config
       - /mnt/toshiba:/downloads
     ports:
       - 8080:8080
