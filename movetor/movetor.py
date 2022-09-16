@@ -5,7 +5,7 @@ import os
 torrent_base_dir=''
 dest_base_dir=''
 
-print('start scipt in: ' + torrent_base_dir)
+print('start movetor in: ' + torrent_base_dir)
 
 for _, tor_types, _ in os.walk(torrent_base_dir):
     for tor_type in tor_types:
@@ -29,4 +29,4 @@ for _, tor_types, _ in os.walk(torrent_base_dir):
                     print('run: ' + clear_command)
                     os.system(clear_command)
 
-print('end scipt')
+print('end movetor')
