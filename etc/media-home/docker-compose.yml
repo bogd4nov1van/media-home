@@ -10,8 +10,8 @@ services:
       - PGID=1000
       - VERSION=docker
     volumes:
-      - /usr/media/movies:/movies
-      - /usr/media/serials:/serials
+      - /mnt/toshiba/movies:/movies
+      - /mnt/toshiba/serials:/serials
     restart: unless-stopped
 
   qbittorrent:
@@ -24,7 +24,7 @@ services:
       - WEBUI_PORT=8080
     volumes:
       - /usr/media/torrent:/config
-      - /usr/media:/downloads
+      - /mnt/toshiba:/downloads
     ports:
       - 8080:8080
       - 6881:6881
