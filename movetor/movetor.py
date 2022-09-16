@@ -2,8 +2,8 @@
 
 import os
 
-torrent_base_dir='/Users/ivanbogdanov/Downloads/torrent/'
-dest_base_dir='nzo@192.168.31.100:/mnt/toshiba/torrent/'
+torrent_base_dir=''
+dest_base_dir=''
 
 print('start scipt in: ' + torrent_base_dir)
 
